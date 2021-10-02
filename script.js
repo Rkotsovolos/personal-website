@@ -4,4 +4,10 @@ document.querySelector("body").appendChild(h2);
 
 const footer = document.createElement("footer");
 footer.textContent = "My Projects";
-document.querySelector("section").appendChild(footer);
+document.querySelector("#bottom").appendChild(footer);
+
+let top = document.querySelector("p");
+let mouseOverFunction = function () {
+    this.style.color = 'oragne';
+};
+top.onmouseover = mouseOverFunction;
