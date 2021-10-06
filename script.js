@@ -6,8 +6,12 @@ const footer = document.createElement("footer");
 footer.textContent = "My Projects";
 document.querySelector("#bottom").appendChild(footer);
 
-let top = document.querySelector("p");
-let mouseOverFunction = function () {
-    this.style.color = 'oragne';
-};
-top.onmouseover = mouseOverFunction;
+/*function addingEventListener() {
+    const li = document.getElementById('li');
+li.addEventListener('click', function() {
+  alert('I was clicked!');
+});
+}
+*/
+
+onmouse
