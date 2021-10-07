@@ -1,10 +1,8 @@
-const h2 = document.createElement("h2");
+/*const h2 = document.createElement("h2");
 h2.textContent = "Future Software Engineer";
-document.querySelector("body").appendChild(h2);
+document.querySelector("#heading").appendChild(h2);
+*/
 
-const footer = document.createElement("footer");
-footer.textContent = "My Projects";
-document.querySelector("#bottom").appendChild(footer);
 
 /*function addingEventListener() {
     const li = document.getElementById('li');
