@@ -49,12 +49,6 @@ p {
     
 }
 
-.pImage {
-    width: 100%;
-    background-color: green;
-    float: right;
-}
-
 .coffee {
     background-color: blue;
     padding: 10px;
@@ -90,18 +84,17 @@ p {
     
 }
 
-.bottomButtons a {
-   
-
-}
-
-
 a {
     color: white;
 }
 
+a:hover {
+    color: rgb(238, 117, 46);
+    padding: 2.5px;
+}
+
 .img {
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(8, 8, 8);
     width: 150px;
     height: 150px;
     border-radius: 50%;
